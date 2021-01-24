@@ -1,0 +1,61 @@
+﻿@page
+    <head>
+        <title>ASP.NET Core SignalR Stock Ticker</title>
+        <link href="~/Stock.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="row">
+
+            <div class="col-md-7">
+                <input type="button" id="open" value="Open Market" />
+                <input type="button" id="close" value="Close Market" disabled="disabled" />
+                <input type="button" id="reset" value="Reset" />
+
+                <h2>Live Stock Table</h2>
+                <div id="stockTable">
+                    <table border="1">
+                        <thead>
+                            <tr><th>Symbol</th><th>Price</th><th>Open</th><th>High</th><th>Low</th><th>Change</th><th>%</th></tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+            <div class="col-md-5">
+                <div class="container">
+                    <div class="row">&nbsp;</div>
+                    <div class="row">
+                        <div class="col-3">User</div>
+                        <div class="col-3"><input type="text" id="userInput" /></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-3">Message</div>
+                        <div class="col-3"><input type="text" id="messageInput" /></div>
+                    </div>
+                    <div class="row">&nbsp;</div>
+                    <div class="row">
+                        <div class="col-6">
+                            <input type="button" id="sendButton" value="Send Message" />
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <hr />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <ul id="messagesList"></ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="~/js/signalr/dist/browser/signalr.js"></script>
+        <script src="~/js/chat.js"></script>
+        <script src="~/js/stock.js"></script>
+    </body>
+
