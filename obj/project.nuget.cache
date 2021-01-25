@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "R3saOsU3s9vaK6lnt804WCN+ubsBSV4xkzvt+L4TFd4gV/S1MBaKek+Xn9VaINqPHqXWFL+PXsDkvOBL3OMsVQ==",
+  "success": true,
+  "projectFilePath": "/app/SignalR-POC.csproj",
+  "expectedPackageFiles": [
+    "/root/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/root/.nuget/packages/microsoft.netcore.targets/1.1.0/microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "/root/.nuget/packages/system.reactive/4.0.0/system.reactive.4.0.0.nupkg.sha512",
+    "/root/.nuget/packages/system.reactive.linq/4.0.0/system.reactive.linq.4.0.0.nupkg.sha512",
+    "/root/.nuget/packages/system.runtime/4.3.0/system.runtime.4.3.0.nupkg.sha512",
+    "/root/.nuget/packages/system.runtime.interopservices.windowsruntime/4.3.0/system.runtime.interopservices.windowsruntime.4.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}
